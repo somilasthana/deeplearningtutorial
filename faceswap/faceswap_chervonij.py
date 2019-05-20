@@ -494,22 +494,7 @@ Instructions for updating:
 Use tf.cast instead.
 Loading: 100% 654/654 [00:01<00:00, 587.27it/s]
 Loading: 0it [00:00, ?it/s]
-Error: integer division or modulo by zero
-Traceback (most recent call last):
-  File "/content/DeepFaceLab/mainscripts/Trainer.py", line 49, in trainerThread
-    device_args=device_args)
-  File "/content/DeepFaceLab/models/ModelBase.py", line 208, in __init__
-    self.sample_for_preview = self.generate_next_sample()
-  File "/content/DeepFaceLab/models/ModelBase.py", line 398, in generate_next_sample
-    return [next(generator) for generator in self.generator_list]
-  File "/content/DeepFaceLab/models/ModelBase.py", line 398, in <listcomp>
-    return [next(generator) for generator in self.generator_list]
-  File "/content/DeepFaceLab/samplelib/SampleGeneratorFace.py", line 58, in __next__
-    generator = self.generators[self.generator_counter % len(self.generators) ]
-ZeroDivisionError: integer division or modulo by zero
-Done.
-/usr/lib/python3.6/multiprocessing/semaphore_tracker.py:143: UserWarning: semaphore_tracker: There appear to be 1 leaked semaphores to clean up at shutdown
-  len(cache))
+SalesVolumeChange
 """
 
 
