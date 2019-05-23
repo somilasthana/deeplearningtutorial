@@ -1,5 +1,29 @@
 # This is taken from https://colab.research.google.com/github/chervonij/DFL-Colab/blob/master/DFL_Colab_Demo.ipynb#scrollTo=JG-f2WqT4fLK
 
+"""
+Parameter Details:
+
+Number of Dest Images > 2000
+
+Step 3: Extracting Images From Videos Both Source and Destination
+  Need FPS : Frames per Second
+  Output Image format: png or jpeg ( png are bigger size )
+  Cut video: drop video
+  
+Step 4: Denoising 
+  Factor : The degree of noise suppression ( 5 )
+  Removing Noise but maintaining crisp edges
+  
+Step 5: Extract Faces
+  Algo used 
+  MT
+  S3FD
+  
+Step 6: Sorting using Histogram
+  After sorting this person will be grouped by content basically a technique used to weed out unwanted people.
+  
+
+"""
 
 import sys
 # STEP 1
