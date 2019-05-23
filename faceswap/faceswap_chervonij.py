@@ -22,6 +22,16 @@ Step 5: Extract Faces
 Step 6: Sorting using Histogram
   After sorting this person will be grouped by content basically a technique used to weed out unwanted people.
   
+Result of Extraction 
+-- Muddy person will be removed
+-- Person closing something will also be removed
+
+
+To make results better in dest pereizvlech on frames.
+
+Observations
+1. Narrow faces train better than Broad Faces
+2. In cases where dest are in one light e.g shadow nose different from src light then NN doesnt do well.
 
 """
 
